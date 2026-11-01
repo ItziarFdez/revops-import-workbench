@@ -1,0 +1,12 @@
+{
+  "delimiter": ",",
+  "unmapped_columns": "reject",
+  "unique_key": ["Email"],
+  "columns": [
+    {"source": "Company", "target": "Company", "type": "text", "required": true, "normalize": ["trim"]},
+    {"source": "Email", "target": "Email", "type": "email", "required": true, "normalize": ["trim", "lower"]},
+    {"source": "Annual Revenue", "target": "AnnualRevenue", "type": "number", "normalize": ["trim"]},
+    {"source": "Consent", "target": "Consent__c", "type": "boolean", "normalize": ["trim"]},
+    {"source": "External ID", "target": "External_ID__c", "type": "text", "required": true, "normalize": ["trim"]}
+  ]
+}
