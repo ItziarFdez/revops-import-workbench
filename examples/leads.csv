@@ -1,0 +1,5 @@
+Company,Email,Annual Revenue,Consent,External ID
+Example Services, HELLO@example.com ,12500.50,yes,000041
+Example Studio,hello@example.com,12000,true,000042
+Example Labs,invalid-email,5000,no,000043
+Example Partners,ops@example.org,-250.00,1,000044
